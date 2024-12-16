@@ -1,7 +1,5 @@
-a = input('Enter a string\n')
+a = input('Enter a string:\n')
 
-b = a[::-1]
-
-if a == b:
+if a == a[::-1]:
     print('The string is palindrome.')
 else: print('The string is not palindrome.')
