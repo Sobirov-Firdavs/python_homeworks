@@ -4,4 +4,4 @@ person = {
     'age' : 20
 }
 
-print(f'The keys are {person.keys()}.')
+print(f'The values are {person.values()}.')
