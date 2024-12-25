@@ -1,14 +1,17 @@
-vowels = 'aioueAIOUE'
+noo = 'aioueAIOUE'
 
 txt = input("Enter a string:\n")
 
-newstring = ""
-used = []
+newstring = ''
+
+counter = 0
 
 for i in range(len(txt)):
+    counter += 1
     newstring += txt[i]
-    if (i + 1) % 3 == 0 and txt[i] not in vowels:
-        if not newstring.endswith("_"):
-            newstring += "_"
+    if i != len(txt) - 1 and counter >= 3 and txt[i] not in noo:
+        noo += txt[i]
+        newstring += '_'
+        counter = 0
 
 print(newstring)
