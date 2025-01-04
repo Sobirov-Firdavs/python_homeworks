@@ -1,0 +1,15 @@
+Spiders do not follow a specific cardinal direction (like east or west)
+when spinning their webs. Instead, they choose a location based on factors such as
+available space, structural support, prey availability, and environmental conditions like wind.
+The web’s orientation depends on these factors rather than any inherent directional preference.
+
+The Moon acts as a mirror, reflecting sunlight towards Earth. Though it doesn't produce
+its own light, the Moon shines because its surface reflects sunlight. This reflection
+causes the phases of the Moon, which change as it orbits Earth. Other celestial bodies,
+like planets, also reflect sunlight to varying degrees.
+
+Trees typically have more leaves on the southern side (in the Northern Hemisphere)
+because that side receives more sunlight. This increased exposure to sunlight
+allows for more photosynthesis, leading to denser foliage. In the Southern Hemisphere,
+the opposite occurs, with the northern side of trees having more leaves. However, factors like local
+environmental conditions and tree species can also influence leaf distribution.
