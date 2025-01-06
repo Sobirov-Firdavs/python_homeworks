@@ -1,4 +1,4 @@
-file_path = r'python_homeworks\lesson-6\employees.txt'
+file_path = r'python_homeworks\lesson-6\homework\employees.txt'
 
 def load_employees():
     employees = []

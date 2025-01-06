@@ -1,5 +1,5 @@
 letters = "abcdefghijklmnopqrstuvwxyz ' "
-file_path = r'python_homeworks\lesson-6\sample.txt'
+file_path = r'python_homeworks\lesson-6\homework\sample.txt'
 
 try:
     with open(file_path) as file:
