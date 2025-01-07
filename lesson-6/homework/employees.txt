@@ -5,4 +5,5 @@ employees = [
     [103, 'Adham Elyorov', 'Sportsman', '500'],
     [104, 'Ravshan Ilhomov', 'Businessman', '2000'],
     [105, 'John Martin', 'Policeman', '2000'],
+    [106, 'Umid', 'Fireman', '2000'],
 ]
