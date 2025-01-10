@@ -1,6 +1,6 @@
-101, 'Firdavs Sobirov', 'Teacher', '1000'
-102, 'Rustam Ahmedov', Kasal, '3000'
-103, 'Adham Elyorov', 'Sportsman', '500'
-104, 'Ravshan Ilhomov', 'Businessman', '2000'
-106, 'Umid', 'Fireman', '2000'
-107, Muhiba, Teacher, 12939
+101, Firdavs Sobirov, Teacher, 1000
+102, Rustam Ahmedov, Engineer, 3000
+103, Adham Elyorov, Sportsman, 500
+105, John Martin, Policeman, 2000
+106, Umid, Fireman, 2000
+107, Nigina, Hairmaker, 2000

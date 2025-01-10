@@ -1,0 +1,5 @@
+101, Finish Homework, Complete math and science homework, Pending
+102, Housework, Clean the house, Pending
+103, Sport, Do exercise for 15 minutes, Completed
+105, Book, Read 15 pages of any book, Pending
+106, Breakfast, prepare breakfast and eat, Completed

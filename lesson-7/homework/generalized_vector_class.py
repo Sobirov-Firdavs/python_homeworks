@@ -19,32 +19,32 @@ class Vector:
     def __add__(self, other):
         dimen = self.__len__()
         if dimen == other.__len__():
-            added = [self.vector[i] + other.vector[i] for i in range(dimen)]
-            return f'{self.vector} + {other.vector} = {added}'
+            added = Vector([self.vector[i] + other.vector[i] for i in range(dimen)])
+            return f'{self.vector} + {other.vector} = {added.vector}'
         else: print('The vectors should be in the dimension.')
 
     """Substruction"""
     def __sub__(self, other):
         dimen = self.__len__()
         if dimen == other.__len__():
-            substracted = [self.vector[i] - other.vector[i] for i in range(dimen)]
-            return f'{self.vector} - {other.vector} = {substracted}'
+            substracted = Vector([self.vector[i] - other.vector[i] for i in range(dimen)])
+            return f'{self.vector} - {other.vector} = {substracted.vector}'
         else: print('The vectors should be in the dimension.')
 
     """Dot product"""
     def dot_product(self, other):
         dimen = self.__len__()
         if dimen == other.__len__():
-            dot_product = sum(self.vector[i] * other.vector[i] for i in range(dimen))
-            return f'{self.vector} * {other.vector} = {dot_product}'
+            dot_product = Vector(sum(self.vector[i] * other.vector[i] for i in range(dimen)))
+            return f'{self.vector} * {other.vector} = {dot_product.vector}'
         else: print('The vectors should be in the dimension.')
 
     """Scalar Multiplication"""
     def scalar_mult(self):
         dimen = self.__len__()
         factor = 3
-        scalar_mult_product = [self.vector[i] * factor for i in range(dimen)]
-        return f'{self.vector} * {factor} = {scalar_mult_product}'
+        scalar_mult_product = Vector([self.vector[i] * factor for i in range(dimen)])
+        return f'{self.vector} * {factor} = {scalar_mult_product.vector}'
     
     """Magnitude"""
     def magnitude(self):
