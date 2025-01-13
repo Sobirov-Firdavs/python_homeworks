@@ -4,7 +4,6 @@ class Employee:
         self.name = name
         self.position = position
         self.salary = salary
-
     def __str__(self):
         return f"{self.employee_id}, {self.name}, {self.position}, {self.salary}"
 
@@ -97,7 +96,6 @@ class EmployeeManager:
                 break
             else:
                 print("Invalid option. Please try again.")
-
 
 # Run the program
 if __name__ == "__main__":

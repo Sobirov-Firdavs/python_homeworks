@@ -14,7 +14,6 @@ class Vector:
     def __str__(self):
         return str(self.vector)
     
-
     """Addition"""
     def __add__(self, other):
         dimen = self.__len__()
